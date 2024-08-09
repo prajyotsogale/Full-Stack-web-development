@@ -1,0 +1,86 @@
+What is HTML?
+Hyper text markup language
+HTML elements are the building blocks of HTML pages, and these elements are represented by tags
+
+-------------------------html heading -------------------------------
+
+opening and closing tag
+angle brackets
+tag and content inside it is called element
+
+there is no h7 tag
+
+
+Html heading dos and don'ts 
+don't two h1 elements in one page
+don't skip between levels, go level wise , h1 then h2 then h3.....
+
+
+---------------------------Paragraph element-------------------------------
+when you wanna display just a plain text. you will see them display on just one line
+we can use paragraph , we can see them seperated and a line in between.
+
+to seperate the text in the line of paragraph.
+
+------------------------------Void elements------------------------------
+these has angle bracket-content-forward slash- closing angle bracket
+there are two void elements break tag and hr tag
+<br/>
+this breaks the line and whatever comes after it will on next line
+ 
+
+ <br> and <br/> both are valid but to make it more readable use <br /> to identify the void elements.
+
+dos and don'ts in paragraph tag
+use void tags only when necessary 
+use paragraph tag to divide the line
+
+----------------------------------List------------------------------
+ordered and unordered list
+
+in unordered list order doesn't matter
+<ul>
+	<li>Milk</li>
+	<li>Chease</li>
+	<li>Mackaroni</li>
+</ul>
+
+ordered list order of list matters, you get numbers in it
+<ol>
+	<li>Milk</li>
+	<li>Chease</li>
+	<li>Mackaroni</li>
+</ol>
+
+
+-------------------------------Anchor elements---------------------------------------
+it allows us to create a hyperlink
+
+
+HTML attributes
+<tag attribute=value >Content</tag>
+
+you can have as many attributes as you want and we can seperate them
+and make sure that they are inside the opening tags
+
+In html we have special attribute 
+href --add link
+ 
+global attributes
+draggable 
+
+What i learnt in practical 
+start attribute to start the numbering from ordered list from 5 or 6 etc
+
+------------------------------Image tag--------------------------------------------
+
+<img src="link"/>
+it is a void tag
+we can also we a alt tag which describes the image to help blind people
+to get random images use picsum photos
+we can also use gif tag instead of jpg in src 
+
+it was toggle word wrap in codewithharry
+comment out shortcut	
+
+
